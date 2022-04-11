@@ -15,6 +15,7 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
 .link {
   text-decoration: none;
 }
@@ -131,7 +132,6 @@ body {
 }
 
 .team-item-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -145,6 +145,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-dark);
+  font-family: inherit;
 }
 button:hover {
   background-color: var(--accent-color);
@@ -163,9 +164,11 @@ button:hover {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.footer-link {
+address {
   font-style: normal;
-  font-weight: 400;
+}
+
+.footer-link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -179,7 +182,6 @@ button:hover {
 }
 
 .hero-second {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
